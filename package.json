@@ -1,0 +1,17 @@
+{
+  "name": "retry-policy-executor",
+  "version": "0.1.0",
+  "description": "Given a function and a policy of max attempts, backoff function, and retryable error predicate, executes the function and retries until success or exhaustion.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {}
+}
